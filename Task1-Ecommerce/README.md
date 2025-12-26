@@ -6,7 +6,7 @@ A professional full-stack application featuring a dynamic product grid, real-tim
 ---
 
 ## 📺 Project Demo
-[![Project Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?style=for-the-badge&logo=youtube)](તમારી_યુટ્યુબ_લિંક_અહીં_નાખો)
+[![Project Demo](https://youtu.be/3QS7ugOZswQ?si=BaL6InN_C6eAWPo1)]
 *Click the button above to see the live working of the project.*
 
 ---
@@ -48,4 +48,4 @@ A professional full-stack application featuring a dynamic product grid, real-tim
 ---
 
 ## 👤 Contact
-**Darshan Kotadiya** [LinkedIn](તમારી_લિંક્ડઇન_પોસ્ટ_લિંક_અહીં_નાખો) | [GitHub](https://github.com/darshankotadiya)
+**Darshan Kotadiya** [LinkedIn](https://www.linkedin.com/posts/darshan-kotadiya-70416a251_codealpha-webdevelopment-internship-activity-7410327910991134720-osoS?utm_source=share&utm_medium=member_android&rcm=ACoAAD4jSXQBhDb44Al5THk1_JVzuJ-kSC8toqQ) | [GitHub](https://github.com/darshankotadiya)
