@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details - CodeAlpha Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div style="font-size:24px; font-weight:700;">Premium<span>Store</span></div>
+        <button onclick="history.back()" style="cursor:pointer; background: #febd69; border:none; padding: 5px 15px; border-radius: 5px;">Back to Shop</button>
+    </header>
+    
+    <div id="product-details" style="display:flex; padding:50px; gap:40px; background:white; margin:20px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.05);">
+        </div>
+    
+    <div id="scanner-modal" class="modal">
+        <div class="gpay-box" style="width: 350px;">
+            <h2 style="margin-top: 0;">Scan to Pay</h2>
+            <p style="color: #666;">Scan this QR using any UPI App</p>
+            
+            <div style="background: white; padding: 15px; border: 1px solid #ddd; border-radius: 10px; margin: 20px auto; width: 200px;">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=CodeAlphaPremiumStorePayment" alt="QR Code" style="width: 100%;">
+            </div>
+            
+            <div id="payment-status">
+                <p style="font-weight: bold; color: #e47911;">Waiting for payment...</p>
+            </div>
+
+            <button class="btn" onclick="simulateProcessing()">Confirm Paid</button>
+            <button class="btn" style="background:#eee; margin-top:10px;" onclick="closeScanner()">Cancel</button>
+        </div>
+    </div>
+
+    <div id="pay-modal" class="modal">
+        <div class="gpay-box">
+            <div class="circle">✓</div>
+            <h2 style="color:#28a745; margin-bottom: 20px;">Payment Successful!</h2>
+            
+            <div id="bill-info" style="text-align:left; background:#f9f9f9; padding:20px; margin:20px 0; border:1px dashed #ccc; line-height:1.6;">
+                </div>
+            
+            <button class="btn" onclick="window.print()">Print Receipt</button>
+            <button class="btn" style="background:#eee; margin-top:10px;" onclick="location.href='index.html'">Continue Shopping</button>
+        </div>
+    </div>
+
+    <script src="details.js"></script>
+</body>
+</html>

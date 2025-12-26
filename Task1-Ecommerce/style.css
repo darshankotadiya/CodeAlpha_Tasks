@@ -1,0 +1,23 @@
+/* style.css - Premium Store UI */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+:root { --primary: #131921; --accent: #febd69; --bg: #f3f3f3; --success: #28a745; }
+
+body { font-family: 'Inter', sans-serif; margin: 0; background: var(--bg); }
+header { background: var(--primary); color: white; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; }
+
+/* Dashboard Layout */
+.layout { display: flex; min-height: 90vh; }
+.sidebar { width: 260px; background: white; padding: 25px; border-right: 1px solid #ddd; }
+.sidebar h3 { font-size: 18px; border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 15px; }
+
+/* Product Grid */
+.grid { flex: 1; padding: 30px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; }
+.card { background: white; border-radius: 12px; padding: 20px; text-align: center; transition: 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+.card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+.card img { width: 100%; height: 200px; object-fit: contain; }
+
+/* Payment Success Modal */
+.modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); align-items: center; justify-content: center; z-index: 2000; }
+.gpay-box { background: white; padding: 40px; border-radius: 20px; text-align: center; width: 380px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+.circle { width: 70px; height: 70px; border: 4px solid var(--success); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: var(--success); font-size: 35px; }
+.btn { background: var(--accent); border: none; padding: 12px; width: 100%; border-radius: 8px; font-weight: 700; cursor: pointer; margin-top: 10px; }
