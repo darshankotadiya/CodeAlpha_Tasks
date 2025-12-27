@@ -6,7 +6,7 @@ A professional full-stack application featuring a dynamic product grid, real-tim
 ---
 
 ## 📺 Project Demo
-[![Project Demo](https://youtu.be/3QS7ugOZswQ?si=BaL6InN_C6eAWPo1)]
+[![Project Demo](https://youtu.be/3QS7ugOZswQ?si=8JKv92Zxm2hy9bLu)]
 *Click the button above to see the live working of the project.*
 
 ---
