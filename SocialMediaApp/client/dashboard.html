@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard | LinkWave</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">🌊 LinkWave</div>
+
+  <div style="display:flex; gap:10px;">
+    <button class="info-btn tooltip" onclick="openAbout()">ℹ️<span class="tooltip-text">About LinkWave</span>
+    </button>
+
+    <button class="logout-btn tooltip" onclick="logout()">Logout<span class="tooltip-text">Sign out</span>
+    </button>
+
+  </div>
+</header>
+
+
+<main class="dashboard">
+
+  <section class="create-post glass">
+    <h3>What's on your mind?</h3>
+    <textarea id="content" placeholder="Share something..."></textarea>
+    <button class="primary-btn" onclick="post()">Post</button>
+  </section>
+
+  <section class="feed">
+    <h3 class="feed-title">Latest Posts</h3>
+    <div id="posts"></div>
+  </section>
+
+</main>
+
+<script src="dashboard.js"></script>
+
+<!-- ABOUT MODAL -->
+<div id="aboutModal" class="modal">
+  <div class="modal-content">
+    <h3>About LinkWave 🌊</h3>
+
+    <p>
+      LinkWave is a mini social media application developed as part of an
+      internship task to demonstrate full-stack development skills.
+    </p>
+
+    <ul>
+      <li>User Authentication (Register / Login)</li>
+      <li>Create Posts & Comments</li>
+      <li>Responsive Dashboard UI</li>
+      <li>Toast Notifications & Skeleton Loaders</li>
+    </ul>
+
+    <p><b>Tech Stack:</b> Node.js, Express.js, MongoDB, HTML, CSS, JavaScript</p>
+    <p><b>Developer:</b> Darshan Kotadiya</p>
+
+    <button class="primary-btn" onclick="closeAbout()">Close</button>
+  </div>
+</div>
+
+</body>
+</html>
