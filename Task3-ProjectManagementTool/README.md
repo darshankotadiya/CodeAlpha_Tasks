@@ -1,23 +1,30 @@
 # 🚀 Full-Stack Project Management Tool
 
-This is a professional Project Management application built using the **MERN Stack** (MongoDB, Express, React, Node.js). It was developed as part of my **CodeAlpha Internship** (Task 3).
+This is a comprehensive project management application built using the **MERN Stack**. It was developed as part of my **CodeAlpha Internship** to demonstrate full-stack capabilities, including REST API integration and dynamic data rendering.
 
 ![Project Dashboard](./screenshot.png)
 
 ## 🛠 Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB Compass
+
+* **Frontend:** React.js, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB Compass
+* **API Testing:** Thunder Client
 
 ## ✨ Key Features
-- **Dynamic Dashboard:** Real-time project overview and stats.
-- **Task Management:** Create and track tasks for specific projects.
-- **REST API:** Fully functional backend with CRUD operations.
-- **Responsive UI:** Modern and clean user interface.
+
+* **Interactive Dashboard:** Real-time visualization of project statistics and active tasks.
+* **Task Management:** Ability to create, view, and manage tasks linked to specific projects.
+* **Full-Stack Integration:** Seamless data flow between React frontend and Node.js backend via RESTful APIs.
+* **Database Sync:** Persistent data storage with MongoDB for reliable task tracking.
 
 ## 📂 Project Structure
-- `/frontend`: Contains the React/Vite source code.
-- `/backend`: Contains the Node.js/Express server and API routes.
 
-## 📸 Project Demo
-Check out the live demo video on my LinkedIn profile!
+* `/frontend`: Contains the React source code and UI components.
+* `/backend`: Contains the Node.js/Express server, API routes, and MongoDB models.
+
+## 🚀 How to Run Locally
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/darshankotadiya/CodeAlpha_Tasks.git](https://github.com/darshankotadiya/CodeAlpha_Tasks.git)
